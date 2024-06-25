@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #112123;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img{
+    margin-right: 20px;
+    height: 743px;
+    border-radius: 2%;
+    border: 4px solid burlywood;
+}
+
+p{  
+    margin-left: 30px;
+    font-size: 50px;
+    padding-bottom: 200px;
+    color:burlywood;
+    display: inline;
+    font-family: "Space Grotesk", cursive;
+    font-weight: normal;
+}
+
+#timer{
+    display: inline;
+    margin-left: 20px;
+    font-size: 40px;
+    padding-bottom: 200px;
+    color: burlywood;
+    font-family: "Space Grotesk", cursive;
+    font-weight: normal;
+}
+
+p{
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+section{
+    justify-content: space-between;
+    display: flex;
+}
+    
+.textos{
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos a{
+    margin-left: 12px;
+    text-decoration: none;
+    color: burlywood;
+    font-family: "Space Grotesk", cursive;
+    font-weight:bold;
+}
+
+.textos a:hover{
+    text-decoration: underline;
+}
+

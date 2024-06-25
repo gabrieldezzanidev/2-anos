@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    background-color:#112123;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-left: 5px;
+}
+
+p{
+    font-size: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: rgba(222, 184, 135, 0.597);
+}
+
+
+a{
+    margin-left: 320px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(222, 184, 135, 0.597);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+section{
+    color: rgba(10, 44, 1, 0.171)
+}
