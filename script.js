@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         errorMessage.style.color = 'green';
         errorMessage.textContent = 'Login bem-sucedido!';
         setTimeout(function() {
-            window.location.href = 'index.html'; 
+            window.location.href = 'here.html'; 
         }, 1000);
     } else {
         errorMessage.style.color = 'red';
